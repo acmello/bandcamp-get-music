@@ -1,6 +1,6 @@
 {
   "name": "bandcamp-get-music",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A CLI tool that enables you to download single tracks or entire albums from bandcamp",
   "main": "bandcamp-get-music.js",
   "dependencies": {
@@ -22,6 +22,10 @@
   "scripts": {
     "test": "./node_modules/gulp test"
   },
+  "bin": {
+    "bandcamp-get-music": "./bin/bandcamp-get-music.js"
+  },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/acmello/bandcamp-music-hack.git"
