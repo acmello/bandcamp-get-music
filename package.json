@@ -1,0 +1,41 @@
+{
+  "name": "bandcamp-get-music",
+  "version": "0.1.0",
+  "description": "A CLI tool that enables you to download single tracks or entire albums from bandcamp",
+  "main": "bandcamp-get-music.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "colors": "^1.2.1",
+    "commander": "^2.9.0",
+    "multi-progress": "^2.0.0",
+    "progress": "^2.0.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0",
+    "sinon": "^1.17.6"
+  },
+  "scripts": {
+    "test": "./node_modules/gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acmello/bandcamp-music-hack.git"
+  },
+  "keywords": [
+    "bandcamp",
+    "music",
+    "download",
+    "music"
+  ],
+  "author": "acmello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acmello/bandcamp-get-music/issues"
+  },
+  "homepage": "https://github.com/acmello/bandcamp-get-music#readme"
+}
