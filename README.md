@@ -4,7 +4,8 @@ A CLI tool that enables you to download single tracks or entire albums from [ban
   ```bash
   $ npm install -g bandcamp-get-music
   ```
-And you should be good to go.
+
+Or you can directly clone this repo. Both ways should set you up for using this.
 
 ## Options
 
@@ -46,11 +47,13 @@ It should be pretty straight forward if you're looking for a quick help. By pass
   Options:
 
     -V, --version  output the version number
-    -a, --album    set the artist's URL album
+    -a, --album    set the artist\'s URL album
     -t, --track    set the track URL
     -s, --search   search for available album from specific artist
     -h, --help     output usage information
 ```
+
+Nice to point out `-s` (search option) was not yet implemented.   
 
 ## Creator
 
