@@ -38,9 +38,19 @@ above, if you run into any errors, check if the URL corresponds to the exact sam
 
 ## Display help
 
-It should be pretty straight forward you're looking for a quick help to make it easier for you to remember
-all the options. By passing `-h` you should be able to see a very simple menu with all the information that
-you need.
+It should be pretty straight forward if you're looking for a quick help. By passing `-h` you should be able to see:
+
+```bash
+  Usage: bandcamp-get-music [options]
+
+  Options:
+
+    -V, --version  output the version number
+    -a, --album    set the artist's URL album
+    -t, --track    set the track URL
+    -s, --search   search for available album from specific artist
+    -h, --help     output usage information
+```
 
 ## Creator
 
